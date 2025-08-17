@@ -1,8 +1,15 @@
 package src;
 
+import src.interfaces.NotificacaoArquivo;
+import src.interfaces.NotificacaoConsole;
+
 public class Main {
+
+    
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        NotificacaoConsole notificacao = new NotificacaoConsole();
+        notificacao.notificar("Teste de notificação no console.");
+        NotificacaoArquivo notificacaoArquivo = new NotificacaoArquivo("logs/log-caixa.txt");
     }
 
 }

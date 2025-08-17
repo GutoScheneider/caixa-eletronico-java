@@ -64,9 +64,11 @@ public class EstoqueCedulas {
                 map.remove(cedula);
             }
 
-            if (novaQuantidade > disponivel) {
+            if (novaQuantidade == disponivel) {
+                notification.notificar("Saldo está zerado");
+            } else if (novaQuantidade > disponivel) {
                 // Notificar que não há cédulas suficientes
-                notification = new Notificacao("Não há cédulas suficientes para a operação.");
+                notification.notificar("Não há cédulas suficientes para a operação.");
             }
         }
     }
