@@ -1,6 +1,6 @@
 # Sistema de Caixa Eletrônico (Java - Orientado a Objetos)
 # Descrição
-Este projeto simula um sistema de caixa eletrônico, desenvolvido em Java puro, seguindo os princípios de orientação a objetos. O sistema permite gerenciar o estoque de cédulas, realizar depósitos, saques e registrar eventos em log, conforme solicitado no teste técnico.
+Este projeto simula um sistema de caixa eletrônico, desenvolvido em Java puro, seguindo os princípios de orientação a objetos. O sistema permite gerenciar o estoque de cédulas, realizar depósitos, saques e registrar eventos em log.
 
 # Funcionalidades
 Estoque de Cédulas:
@@ -16,22 +16,39 @@ Caso não seja possível realizar o saque, uma mensagem clara é exibida e regis
 # Notificações e Log:
 Eventos como depósito realizado, saque realizado com sucesso e saque recusado são registrados em um arquivo de texto (log-caixa.txt), contendo data, hora e mensagem detalhada.
 
-# Sugestão Alternativa (Opcional):
-Se o valor solicitado não puder ser composto, o sistema sugere o maior valor possível para saque.
-
 # Simulação no Console:
 O sistema possui um menu interativo para facilitar testes e avaliação.
 
-# Exemplo de Log
-Como Executar
-Certifique-se de ter o Java instalado (Java 17 ou superior).
-Compile o projeto:
-Execute o sistema:
-Estrutura do Projeto
-src - Código fonte
-logs - Arquivo de log dos eventos
-README.md - Este arquivo
-Observações
-Não foram utilizados frameworks ou bibliotecas externas.
-O código está limpo, estruturado e comentado.
-Nomes de classes, métodos e variáveis são claros e autoexplicativos.
+# Como Executar
+
+# Requisitos
+
+- **Java JDK 17** ou superior
+- Terminal (cmd, PowerShell, bash, etc.)
+- Editor de texto ou IDE (VS Code, IntelliJ, Eclipse, etc.)
+
+## Instalação do Java
+Se não possuir o Java instalado, baixe e instale a versão mais recente do JDK em:
+- [Oracle JDK](https://www.oracle.com/java/technologies/downloads/)
+- [OpenJDK](https://adoptium.net/pt/temurin/releases/)
+
+Para verificar se o Java está instalado e a versão:
+```bash
+java -version
+```
+O resultado deve ser igual ou superior a `17`.
+
+
+## Compilação
+Abra o terminal na pasta raiz do projeto e execute:
+
+```bash
+javac -d bin src/**/*.java
+```
+
+## Execução
+Após compilar, execute o sistema com:
+
+```bash
+java -cp bin src.Main
+```
