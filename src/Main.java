@@ -106,7 +106,9 @@ public class Main {
                     System.out.print("Quantidade de cédulas: ");
                     int qtdCedulas = scanner.nextInt();
                     estoque.depositar(cedulaSelecionada, qtdCedulas);
-                    estoque.notificarTodos("Depósito: " + qtdCedulas + " cédulas de R$ " + cedulaSelecionada.getValor());
+                        // Monta log detalhado do depósito
+                        String logDeposito = "Depósito realizado: " + qtdCedulas + "x R$" + cedulaSelecionada.getValor();
+                        estoque.notificarTodos(logDeposito);
                     break;
                 case 99:
                     System.out.println("Saindo...");

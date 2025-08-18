@@ -37,3 +37,17 @@
 [17/08/2025 21:34:08] Não há quantidade suficiente de cédulas para o valor solicitado.
 [17/08/2025 21:34:16] Não há quantidade suficiente de cédulas para o valor solicitado.
 [17/08/2025 21:35:02] Caixa encerrado.
+[17/08/2025 21:42:53] Saldo disponível: R$ 0
+[17/08/2025 21:43:05] Saldo insuficiente para saque.
+[17/08/2025 21:43:05] Tentativa de saque sem saldo suficiente: R$ 2
+[17/08/2025 21:43:12] 1 - R$ 100
+[17/08/2025 21:43:12] 2 - R$ 50
+[17/08/2025 21:43:12] 3 - R$ 20
+[17/08/2025 21:43:12] 4 - R$ 10
+[17/08/2025 21:43:12] 5 - R$ 5
+[17/08/2025 21:43:12] 6 - R$ 2
+[17/08/2025 21:43:16] Depósito realizado: 1x R$100
+[17/08/2025 21:43:30] Não há quantidade suficiente de cédulas para o valor solicitado.
+[17/08/2025 21:43:36] Saque realizado: R$ 100
+[17/08/2025 21:43:37] Saldo disponível: R$ 0
+[17/08/2025 21:43:39] Caixa encerrado.
