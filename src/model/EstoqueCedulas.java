@@ -21,7 +21,7 @@ public class EstoqueCedulas {
     }
 
     public EstoqueCedulas() {
-        this.quantidade = 0; // Default constructor initializes quantity to 0
+        this.quantidade = 0;
     }    public int getQuantidade() {
         return quantidade;
     }
