@@ -5,20 +5,24 @@ import src.enums.Cedula;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.EnumMap;
+import java.util.List;
+import java.util.ArrayList;
 
 // If Notification does not exist, create the Notification class in src/model/Notification.java:
 
 public class EstoqueCedulas {
     private int quantidade;
-    private Notificacao notification;
     private Map<Cedula, Integer> map = new HashMap<>();
     private Map<Cedula, Integer> composicao = new HashMap<>();
+    private List<Notificacao> notificadores = new ArrayList<>();
 
     public EstoqueCedulas(int quantidade) {
         this.quantidade = quantidade;
     }
 
-    public int getQuantidade() {
+    public EstoqueCedulas() {
+        this.quantidade = 0; // Default constructor initializes quantity to 0
+    }    public int getQuantidade() {
         return quantidade;
     }
 
@@ -26,15 +30,17 @@ public class EstoqueCedulas {
         this.quantidade = quantidade;
     }
 
-    public Notificacao getNotification() {
-        return notification;
+    public void addNotificador(Notificacao notificador) {
+        notificadores.add(notificador);
     }
 
-    public void setNotification(Notificacao notification) {
-        this.notification = notification;
+    public void notificarTodos(String mensagem) {
+        for (Notificacao n : notificadores) {
+            n.notificar(mensagem);
+        }
     }
 
-    Map<Cedula, Integer> getMap() {
+    public Map<Cedula, Integer> getMap() {
         return map;
     }
 
@@ -65,10 +71,10 @@ public class EstoqueCedulas {
             }
 
             if (novaQuantidade == disponivel) {
-                notification.notificar("Saldo está zerado");
+                notificarTodos("Saldo está zerado");
             } else if (novaQuantidade > disponivel) {
                 // Notificar que não há cédulas suficientes
-                notification.notificar("Não há cédulas suficientes para a operação.");
+                notificarTodos("Não há cédulas suficientes para a operação.");
             }
         }
     }

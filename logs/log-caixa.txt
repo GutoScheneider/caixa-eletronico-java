@@ -1,0 +1,39 @@
+[17/08/2025 21:24:56] Depósito: 1 cédulas de R$ 100
+[17/08/2025 21:25:06] Depósito: 5 cédulas de R$ 2
+[17/08/2025 21:25:20] Saque realizado: R$ 7
+[17/08/2025 21:25:41] Caixa encerrado.
+[17/08/2025 21:28:40] Saldo disponível: R$ 0
+[17/08/2025 21:28:42] 1 - R$ 100
+[17/08/2025 21:28:42] 2 - R$ 50
+[17/08/2025 21:28:42] 3 - R$ 20
+[17/08/2025 21:28:42] 4 - R$ 10
+[17/08/2025 21:28:42] 5 - R$ 5
+[17/08/2025 21:28:42] 6 - R$ 2
+[17/08/2025 21:28:47] Depósito: 2 cédulas de R$ 50
+[17/08/2025 21:28:50] Saldo disponível: R$ 100
+[17/08/2025 21:28:56] Não foi possível realizar o saque exatamente com as cédulas disponíveis.
+[17/08/2025 21:28:58] Saldo disponível: R$ 50
+[17/08/2025 21:29:02] Saldo disponível: R$ 50
+[17/08/2025 21:31:39] Saldo disponível: R$ 0
+[17/08/2025 21:31:41] 1 - R$ 100
+[17/08/2025 21:31:41] 2 - R$ 50
+[17/08/2025 21:31:41] 3 - R$ 20
+[17/08/2025 21:31:41] 4 - R$ 10
+[17/08/2025 21:31:41] 5 - R$ 5
+[17/08/2025 21:31:41] 6 - R$ 2
+[17/08/2025 21:31:44] Depósito: 5 cédulas de R$ 10
+[17/08/2025 21:31:48] Não há quantidade suficiente de cédulas para o valor solicitado.
+[17/08/2025 21:31:56] Saldo disponível: R$ 50
+[17/08/2025 21:33:49] Caixa encerrado.
+[17/08/2025 21:33:54] Saldo disponível: R$ 0
+[17/08/2025 21:33:57] 1 - R$ 100
+[17/08/2025 21:33:57] 2 - R$ 50
+[17/08/2025 21:33:57] 3 - R$ 20
+[17/08/2025 21:33:57] 4 - R$ 10
+[17/08/2025 21:33:57] 5 - R$ 5
+[17/08/2025 21:33:57] 6 - R$ 2
+[17/08/2025 21:33:59] Depósito: 5 cédulas de R$ 10
+[17/08/2025 21:34:02] Saldo disponível: R$ 50
+[17/08/2025 21:34:08] Não há quantidade suficiente de cédulas para o valor solicitado.
+[17/08/2025 21:34:16] Não há quantidade suficiente de cédulas para o valor solicitado.
+[17/08/2025 21:35:02] Caixa encerrado.
