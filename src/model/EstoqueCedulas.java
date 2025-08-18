@@ -8,8 +8,6 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.ArrayList;
 
-// If Notification does not exist, create the Notification class in src/model/Notification.java:
-
 public class EstoqueCedulas {
     private int quantidade;
     private Map<Cedula, Integer> map = new HashMap<>();
